@@ -1,8 +1,8 @@
 # Flatfish-BM
 Flatfish-Benchmark (Flatfish-BM) is a benchmark set, which consists of physical address traces with different access patterns. Each physical memory has 27 valid bits, which contain 3-bit Bank ID, 14-bit Row ID, and 10-bit Column ID.
 
-# Details
-## Kernel Patterns
+## Details
+### Kernel Patterns
 Flatfish-BM includes address traces with five typical memory access patterns: 
 - **Sequential**：We use small-scale matrix multiplication as the representative application，and all the input/output data are accessed in a sequential manner.
 - **Random**: We use Sorting algorithms on randomly generated data as the representative application.
@@ -12,13 +12,13 @@ Flatfish-BM includes address traces with five typical memory access patterns:
 
 Address traces of **Stride**, **Non-overlap Window** and **Overlap Window** are further divided into two sub-sets (**small** and **large**) by the size of image, tile, and feature map, respectively.
 
-## Real-world Workloads
+### Real-world Workloads
 Flatfish-BM also includes address traces of three typical neural network models (inference only):
 - **ResNet-34**: A typical Convolutional Neural Network (CNN), which is widely employed in computer vision.
 - **Seq2Seq**: A typical Recurrent Neural Network (RNN), which is widely employed in natural language processing.
 - **GGS-NN**: A typical Graph Neural Network (GNN), which is widely employed in graph processing.
 
-# Usage
+## Usage
 The files in the traces directory are compressed ``.npz`` format of numpy. These files are extracted from our full benchmark which retain all of the memory access parttern. We will release the full benchmark later because the full benchmark contains of gigabytes of data which is difficult to anonymously release. 
 For example, we can load the file in python3 by:
 
