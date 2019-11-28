@@ -1,7 +1,7 @@
 # BIM searched by Flatfish
 Note that you may get different BIM because the randomness of reinforment learning algorithm.
 
-Note that the arrangement of the BIM is LSB first.
+Note that we place the mapping for LSB left in this README.md.
 
 ### Stride-large
 Online
