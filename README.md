@@ -14,9 +14,9 @@ Address traces of **Stride**, **Non-overlap Window** and **Overlap Window** are 
 
 ## Real-world Workloads
 Flatfish-BM also includes address traces of three typical neural network models (inference only):
-- **ResNet-34**: A typical Convolutional Neural Network (CNN), which is widely employed in computer vision tasks.
-- **Seq2Seq**: A typical Recurrent Neural Network (RNN), which is widely employed for natural language processing tasks.
-- **GGS-NN**: A typical Graph Neural Network (GNN), which is widely employed for graph processing tasks.
+- **ResNet-34**: A typical Convolutional Neural Network (CNN), which is widely employed in computer vision.
+- **Seq2Seq**: A typical Recurrent Neural Network (RNN), which is widely employed in natural language processing.
+- **GGS-NN**: A typical Graph Neural Network (GNN), which is widely employed in graph processing.
 
 # Usage
 The files in the traces directory are compressed ``.npz`` format of numpy. These files are extracted from our full benchmark which retain all of the memory access parttern. We will release the full benchmark later because the full benchmark contains of gigabytes of data which is difficult to anonymously release. 
