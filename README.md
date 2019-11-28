@@ -18,7 +18,6 @@ Flatfish-BM also includes address traces of three typical neural network models 
 - **Seq2Seq**: A typical Recurrent Neural Network (RNN), which is widely employed in natural language processing.
 - **GGS-NN**: A typical Graph Neural Network (GNN), which is widely employed in graph processing.
 
-Currently, the address traces are extracted from our full benchmark set. The full benchmark set contains several GB of data, and we will upload the full benchmark set later.
 
 ## Usage
 In ``Flatfish-BM/traces/``, all the address traces are saved in a compressed format of numpy (``.npz``). For example, we can load the address trace file in python3 by:
