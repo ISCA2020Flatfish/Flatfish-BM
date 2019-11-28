@@ -36,6 +36,6 @@ The files in the traces directory are the compressed numpy files. These files ar
 For example, we can load the file in python3 by:
 
 ```python3
-  import numpy as np
-  trace=np.load("rotate_large.npz")['arr_0']
+import numpy as np
+trace=np.load("rotate_large.npz")['arr_0']
 ```
