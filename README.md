@@ -25,5 +25,5 @@ For example, we can load the address trace file in python3 by:
 
 ```python3
 import numpy as np
-trace=np.load("rotate_large.npz")['arr_0']
+trace_stride_large = np.load("Stride_large.npz")['arr_0']
 ```
