@@ -3,6 +3,7 @@
 1. You may get different BIMs due to the randomness of reinforment learning.
 2. All the BIMs are presented in a "LSB -> MSB" format in both row and column.
 
+## BIMs
 ### Stride (large)
 Flatfish-Online
 ```
