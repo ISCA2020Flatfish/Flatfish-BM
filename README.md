@@ -1,4 +1,4 @@
-# Flatfish-Benchmark 
+# Flatfish-BM
 Flatfish-Benchmark (Flatfish-BM) is a benchmark set, which consists of physical address traces with different access patterns. Each physical memory has 27 valid bits, which contain 3-bit Bank ID, 14-bit Row ID, and 10-bit Column ID.
 
 # Details
