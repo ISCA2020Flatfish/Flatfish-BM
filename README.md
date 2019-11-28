@@ -32,7 +32,7 @@ Sequence to sequence(Seq2Seq) is a widely used network architecture in the area 
 GGS-NN is a widely used graph neural network architecture for graph processing. We chose the memory access of inference for a Residual Gated Graph ConvNets.
 
 # Usage
-The files in the traces directory are the compressed numpy files. These files are extracted from our full benchmark which retain all of the memory access parttern. We will release the full benchmark later because the full benchmark contains of gigabytes of data which is difficult to anonymously release. 
+The files in the traces directory are compressed ``.npz`` format of numpy. These files are extracted from our full benchmark which retain all of the memory access parttern. We will release the full benchmark later because the full benchmark contains of gigabytes of data which is difficult to anonymously release. 
 For example, we can load the file in python3 by:
 
 ```python3
